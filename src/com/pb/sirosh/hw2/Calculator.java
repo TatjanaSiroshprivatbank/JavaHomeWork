@@ -12,7 +12,7 @@ public class Calculator {
         operand1 = scan.nextInt();
         System.out.print("Введите второе целое число b: ");
         operand2 = scan.nextInt();
-        System.out.print("Введите операцию (+,-,*,/): ");
+        System.out.print("Введите знак арифметической операции (+,-,*,/): ");
         sign = scan.next();
 
         switch (sign) {
